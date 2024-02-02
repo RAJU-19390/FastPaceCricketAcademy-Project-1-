@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34407.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CricketPlayer", "CricketPlayer\CricketPlayer.csproj", "{323A9319-D997-4C5E-903C-95E6D1480B5A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A4788BB3-D9C7-492D-86CD-4477B42654FD} = {A4788BB3-D9C7-492D-86CD-4477B42654FD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerDetails", "PlayerDetails\PlayerDetails.csproj", "{A4788BB3-D9C7-492D-86CD-4477B42654FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{323A9319-D997-4C5E-903C-95E6D1480B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323A9319-D997-4C5E-903C-95E6D1480B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323A9319-D997-4C5E-903C-95E6D1480B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323A9319-D997-4C5E-903C-95E6D1480B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4788BB3-D9C7-492D-86CD-4477B42654FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4788BB3-D9C7-492D-86CD-4477B42654FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4788BB3-D9C7-492D-86CD-4477B42654FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4788BB3-D9C7-492D-86CD-4477B42654FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0A2BFEC-DB57-4F14-A783-BB1E3A9833C0}
+	EndGlobalSection
+EndGlobal
